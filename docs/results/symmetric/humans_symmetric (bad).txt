@@ -1,0 +1,327 @@
+================ Testing Acc (Sat Nov 28 22:21:02 2020) ================
+epoch: 1, TEST ACC: [10.071 %]
+
+================ Testing Acc (Sun Nov 29 08:35:46 2020) ================
+epoch: 1, TEST ACC: [34.878 %]
+
+================ Testing Acc (Sun Nov 29 08:38:19 2020) ================
+epoch: 2, TEST ACC: [34.927 %]
+
+================ Testing Acc (Sun Nov 29 08:40:50 2020) ================
+epoch: 3, TEST ACC: [35.101 %]
+
+================ Testing Acc (Sun Nov 29 08:43:20 2020) ================
+epoch: 4, TEST ACC: [37.248 %]
+
+================ Testing Acc (Sun Nov 29 08:45:50 2020) ================
+epoch: 5, TEST ACC: [43.025 %]
+
+================ Testing Acc (Sun Nov 29 08:48:19 2020) ================
+epoch: 6, TEST ACC: [41.269 %]
+
+================ Testing Acc (Sun Nov 29 08:50:51 2020) ================
+epoch: 7, TEST ACC: [41.393 %]
+
+================ Testing Acc (Sun Nov 29 08:53:26 2020) ================
+epoch: 8, TEST ACC: [42.68 %]
+
+================ Testing Acc (Sun Nov 29 08:55:59 2020) ================
+epoch: 9, TEST ACC: [45.849 %]
+
+================ Testing Acc (Sun Nov 29 08:58:33 2020) ================
+epoch: 10, TEST ACC: [44.785 %]
+
+================ Testing Acc (Sun Nov 29 09:01:16 2020) ================
+epoch: 11, TEST ACC: [50.825 %]
+
+================ Testing Acc (Sun Nov 29 09:04:18 2020) ================
+epoch: 12, TEST ACC: [51.914 %]
+
+================ Testing Acc (Sun Nov 29 09:07:19 2020) ================
+epoch: 13, TEST ACC: [54.141 %]
+
+================ Testing Acc (Sun Nov 29 09:10:22 2020) ================
+epoch: 14, TEST ACC: [56.871 %]
+
+================ Testing Acc (Sun Nov 29 09:13:23 2020) ================
+epoch: 15, TEST ACC: [57.1 %]
+
+================ Testing Acc (Sun Nov 29 09:16:23 2020) ================
+epoch: 16, TEST ACC: [57.463 %]
+
+================ Testing Acc (Sun Nov 29 09:19:26 2020) ================
+epoch: 17, TEST ACC: [59.574 %]
+
+================ Testing Acc (Sun Nov 29 09:22:29 2020) ================
+epoch: 18, TEST ACC: [59.74 %]
+
+================ Testing Acc (Sun Nov 29 09:25:31 2020) ================
+epoch: 19, TEST ACC: [59.959 %]
+
+================ Testing Acc (Sun Nov 29 09:28:31 2020) ================
+epoch: 20, TEST ACC: [60.416 %]
+
+================ Testing Acc (Sun Nov 29 09:31:32 2020) ================
+epoch: 21, TEST ACC: [60.543 %]
+
+================ Testing Acc (Sun Nov 29 09:34:31 2020) ================
+epoch: 22, TEST ACC: [63.275 %]
+
+================ Testing Acc (Sun Nov 29 09:37:32 2020) ================
+epoch: 23, TEST ACC: [60.468 %]
+
+================ Testing Acc (Sun Nov 29 09:40:30 2020) ================
+epoch: 24, TEST ACC: [62.857 %]
+
+================ Testing Acc (Sun Nov 29 09:43:34 2020) ================
+epoch: 25, TEST ACC: [64.283 %]
+
+================ Testing Acc (Sun Nov 29 09:46:35 2020) ================
+epoch: 26, TEST ACC: [59.894 %]
+
+================ Testing Acc (Sun Nov 29 09:49:40 2020) ================
+epoch: 27, TEST ACC: [65.961 %]
+
+================ Testing Acc (Sun Nov 29 09:52:42 2020) ================
+epoch: 28, TEST ACC: [63.893 %]
+
+================ Testing Acc (Sun Nov 29 09:55:42 2020) ================
+epoch: 29, TEST ACC: [64.672 %]
+
+================ Testing Acc (Sun Nov 29 09:58:40 2020) ================
+epoch: 30, TEST ACC: [64.259 %]
+
+================ Testing Acc (Sun Nov 29 10:01:37 2020) ================
+epoch: 31, TEST ACC: [65.37 %]
+
+================ Testing Acc (Sun Nov 29 10:04:37 2020) ================
+epoch: 32, TEST ACC: [65.039 %]
+
+================ Testing Acc (Sun Nov 29 10:07:38 2020) ================
+epoch: 33, TEST ACC: [65.092 %]
+
+================ Testing Acc (Sun Nov 29 10:10:39 2020) ================
+epoch: 34, TEST ACC: [64.742 %]
+
+================ Testing Acc (Sun Nov 29 10:13:22 2020) ================
+epoch: 35, TEST ACC: [65.492 %]
+
+================ Testing Acc (Sun Nov 29 10:16:14 2020) ================
+epoch: 36, TEST ACC: [67.229 %]
+
+================ Testing Acc (Sun Nov 29 10:19:21 2020) ================
+epoch: 37, TEST ACC: [67.21 %]
+
+================ Testing Acc (Sun Nov 29 10:22:38 2020) ================
+epoch: 38, TEST ACC: [65.161 %]
+
+================ Testing Acc (Sun Nov 29 10:25:53 2020) ================
+epoch: 39, TEST ACC: [66.966 %]
+
+================ Testing Acc (Sun Nov 29 10:28:30 2020) ================
+epoch: 40, TEST ACC: [68.967 %]
+
+================ Testing Acc (Sun Nov 29 10:31:02 2020) ================
+epoch: 41, TEST ACC: [66.774 %]
+
+================ Testing Acc (Sun Nov 29 10:33:39 2020) ================
+epoch: 42, TEST ACC: [67.251 %]
+
+================ Testing Acc (Sun Nov 29 10:36:09 2020) ================
+epoch: 43, TEST ACC: [68.452 %]
+
+================ Testing Acc (Sun Nov 29 10:38:39 2020) ================
+epoch: 44, TEST ACC: [64.87 %]
+
+================ Testing Acc (Sun Nov 29 10:41:07 2020) ================
+epoch: 45, TEST ACC: [67.93 %]
+
+================ Testing Acc (Sun Nov 29 10:43:38 2020) ================
+epoch: 46, TEST ACC: [61.497 %]
+
+================ Testing Acc (Sun Nov 29 10:46:09 2020) ================
+epoch: 47, TEST ACC: [66.313 %]
+
+================ Testing Acc (Sun Nov 29 10:48:38 2020) ================
+epoch: 48, TEST ACC: [67.453 %]
+
+================ Testing Acc (Sun Nov 29 10:51:06 2020) ================
+epoch: 49, TEST ACC: [65.366 %]
+
+================ Testing Acc (Sun Nov 29 10:53:36 2020) ================
+epoch: 50, TEST ACC: [65.144 %]
+
+================ Testing Acc (Sun Nov 29 10:56:04 2020) ================
+epoch: 51, TEST ACC: [68.061 %]
+
+================ Testing Acc (Sun Nov 29 10:58:35 2020) ================
+epoch: 52, TEST ACC: [66.972 %]
+
+================ Testing Acc (Sun Nov 29 11:01:09 2020) ================
+epoch: 53, TEST ACC: [68.931 %]
+
+================ Testing Acc (Sun Nov 29 11:03:39 2020) ================
+epoch: 54, TEST ACC: [65.954 %]
+
+================ Testing Acc (Sun Nov 29 11:06:10 2020) ================
+epoch: 55, TEST ACC: [67.904 %]
+
+================ Testing Acc (Sun Nov 29 11:08:42 2020) ================
+epoch: 56, TEST ACC: [67.843 %]
+
+================ Testing Acc (Sun Nov 29 11:11:15 2020) ================
+epoch: 57, TEST ACC: [68.728 %]
+
+================ Testing Acc (Sun Nov 29 11:13:46 2020) ================
+epoch: 58, TEST ACC: [67.451 %]
+
+================ Testing Acc (Sun Nov 29 11:16:24 2020) ================
+epoch: 59, TEST ACC: [68.753 %]
+
+================ Testing Acc (Sun Nov 29 11:19:01 2020) ================
+epoch: 60, TEST ACC: [66.832 %]
+
+================ Testing Acc (Sun Nov 29 11:21:53 2020) ================
+epoch: 61, TEST ACC: [68.198 %]
+
+================ Testing Acc (Sun Nov 29 11:24:56 2020) ================
+epoch: 62, TEST ACC: [68.257 %]
+
+================ Testing Acc (Sun Nov 29 11:27:53 2020) ================
+epoch: 63, TEST ACC: [68.961 %]
+
+================ Testing Acc (Sun Nov 29 11:30:51 2020) ================
+epoch: 64, TEST ACC: [66.608 %]
+
+================ Testing Acc (Sun Nov 29 11:33:47 2020) ================
+epoch: 65, TEST ACC: [68.256 %]
+
+================ Testing Acc (Sun Nov 29 11:36:50 2020) ================
+epoch: 66, TEST ACC: [67.195 %]
+
+================ Testing Acc (Sun Nov 29 11:39:48 2020) ================
+epoch: 67, TEST ACC: [70.698 %]
+
+================ Testing Acc (Sun Nov 29 11:42:47 2020) ================
+epoch: 68, TEST ACC: [69.143 %]
+
+================ Testing Acc (Sun Nov 29 11:45:52 2020) ================
+epoch: 69, TEST ACC: [69.178 %]
+
+================ Testing Acc (Sun Nov 29 11:48:56 2020) ================
+epoch: 70, TEST ACC: [67.44 %]
+
+================ Testing Acc (Sun Nov 29 11:51:56 2020) ================
+epoch: 71, TEST ACC: [65.784 %]
+
+================ Testing Acc (Sun Nov 29 11:54:57 2020) ================
+epoch: 72, TEST ACC: [67.103 %]
+
+================ Testing Acc (Sun Nov 29 11:57:55 2020) ================
+epoch: 73, TEST ACC: [67.506 %]
+
+================ Testing Acc (Sun Nov 29 12:01:00 2020) ================
+epoch: 74, TEST ACC: [67.644 %]
+
+================ Testing Acc (Sun Nov 29 12:03:58 2020) ================
+epoch: 75, TEST ACC: [65.555 %]
+
+================ Testing Acc (Sun Nov 29 12:07:01 2020) ================
+epoch: 76, TEST ACC: [67.557 %]
+
+================ Testing Acc (Sun Nov 29 12:10:06 2020) ================
+epoch: 77, TEST ACC: [69.733 %]
+
+================ Testing Acc (Sun Nov 29 12:13:12 2020) ================
+epoch: 78, TEST ACC: [68.722 %]
+
+================ Testing Acc (Sun Nov 29 12:16:11 2020) ================
+epoch: 79, TEST ACC: [64.244 %]
+
+================ Testing Acc (Sun Nov 29 12:19:15 2020) ================
+epoch: 80, TEST ACC: [67.963 %]
+
+================ Testing Acc (Sun Nov 29 12:22:19 2020) ================
+epoch: 81, TEST ACC: [66.832 %]
+
+================ Testing Acc (Sun Nov 29 12:25:22 2020) ================
+epoch: 82, TEST ACC: [68.133 %]
+
+================ Testing Acc (Sun Nov 29 12:28:22 2020) ================
+epoch: 83, TEST ACC: [67.577 %]
+
+================ Testing Acc (Sun Nov 29 12:31:21 2020) ================
+epoch: 84, TEST ACC: [58.714 %]
+
+================ Testing Acc (Sun Nov 29 12:34:30 2020) ================
+epoch: 85, TEST ACC: [64.355 %]
+
+================ Testing Acc (Sun Nov 29 12:37:43 2020) ================
+epoch: 86, TEST ACC: [68.284 %]
+
+================ Testing Acc (Sun Nov 29 12:40:55 2020) ================
+epoch: 87, TEST ACC: [68.045 %]
+
+================ Testing Acc (Sun Nov 29 12:44:12 2020) ================
+epoch: 88, TEST ACC: [69.966 %]
+
+================ Testing Acc (Sun Nov 29 12:47:10 2020) ================
+epoch: 89, TEST ACC: [68.828 %]
+
+================ Testing Acc (Sun Nov 29 12:49:44 2020) ================
+epoch: 90, TEST ACC: [62.812 %]
+
+================ Testing Acc (Sun Nov 29 12:52:19 2020) ================
+epoch: 91, TEST ACC: [68.532 %]
+
+================ Testing Acc (Sun Nov 29 12:54:56 2020) ================
+epoch: 92, TEST ACC: [69.452 %]
+
+================ Testing Acc (Sun Nov 29 12:57:31 2020) ================
+epoch: 93, TEST ACC: [68.567 %]
+
+================ Testing Acc (Sun Nov 29 13:00:01 2020) ================
+epoch: 94, TEST ACC: [67.614 %]
+
+================ Testing Acc (Sun Nov 29 13:02:32 2020) ================
+epoch: 95, TEST ACC: [69.58 %]
+
+================ Testing Acc (Sun Nov 29 13:05:00 2020) ================
+epoch: 96, TEST ACC: [69.784 %]
+
+================ Testing Acc (Sun Nov 29 13:07:29 2020) ================
+epoch: 97, TEST ACC: [69.83 %]
+
+================ Testing Acc (Sun Nov 29 13:09:55 2020) ================
+epoch: 98, TEST ACC: [63.312 %]
+
+================ Testing Acc (Sun Nov 29 13:12:23 2020) ================
+epoch: 99, TEST ACC: [68.723 %]
+
+================ Testing Acc (Sun Nov 29 13:14:51 2020) ================
+epoch: 100, TEST ACC: [69.085 %]
+
+================ Testing Acc (Sun Nov 29 13:17:20 2020) ================
+epoch: 101, TEST ACC: [68.734 %]
+
+================ Testing Acc (Sun Nov 29 13:19:49 2020) ================
+epoch: 102, TEST ACC: [67.513 %]
+
+================ Testing Acc (Sun Nov 29 13:22:18 2020) ================
+epoch: 103, TEST ACC: [68.218 %]
+
+================ Testing Acc (Sun Nov 29 13:24:48 2020) ================
+epoch: 104, TEST ACC: [67.843 %]
+
+================ Testing Acc (Sun Nov 29 13:27:17 2020) ================
+epoch: 105, TEST ACC: [70.664 %]
+
+================ Testing Acc (Sun Nov 29 13:29:46 2020) ================
+epoch: 106, TEST ACC: [57.049 %]
+
+================ Testing Acc (Sun Nov 29 13:32:17 2020) ================
+epoch: 107, TEST ACC: [66.111 %]
+
+================ Testing Acc (Sun Nov 29 13:34:48 2020) ================
+epoch: 108, TEST ACC: [68.389 %]
+
