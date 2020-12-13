@@ -20,23 +20,7 @@ A better practice would be splitting the data into 3 sets: train, validation and
 The validation set assigned to setting and optimizing the Hyperparameters while the test set to estimate the final model success, and hence the model can't reach this data before it's done.
 
 # What we tried?
-Activation function we tried using tanh, sigmoid and leaky relu instead of the relu layers.
-Modifying learning rate
-Tweaking the batch size
-Changing 
-Changing the loss reduction type from mean to std and median.
-Changing init type
-Modifying resblock
-Adding kernel features
-Norm
-Sum
-Std
-Multiplication and division of the edges (which resulted in NaN)
-Adding dropout - during training we zero some of the activations (and don’t update those weights). It is a kind of regularization- good for generalization. 
-Adding layers to the classification network
-We tried adding a fully connected layer between any 2 convolution layers.
-Changing the parameter for edge collapse
-Randomly collapsing edges
+<ol class="c6 lst-kix_wfe3e81sw3y3-0 start" start="1"><li class="c10"><span class="c0">Activation function we tried using tanh, sigmoid and leaky relu instead of the relu layers.</span></li><li class="c10"><span class="c0">Modifying learning rate</span></li><li class="c10"><span class="c0">Tweaking the batch size</span></li><li class="c10"><span class="c0">Changing </span></li><li class="c10"><span class="c0">Changing the loss reduction type from mean to std and median.</span></li><li class="c10"><span class="c0">Changing init type</span></li><li class="c10"><span class="c0">Modifying resblock</span></li><li class="c10"><span class="c0">Adding kernel features</span></li></ol>
 
 We also used many combinations of the above
 Partial results and code for these modifications is attached.
