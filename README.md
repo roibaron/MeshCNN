@@ -25,9 +25,11 @@ Partial results and code for these modifications is attached.
 
 ## The final model
  The final model included just modest tweaks:
-Replacing the activation function.
-Adding a sum feature to the kernal.
-
+ <ul>
+ <li>Adding droput. </li>
+ <li>Replacing the activation function (leaky relu). </li>
+ <li>Adding a  features to the kernal (sum+std). </li>
+</ul>
 # The results
 
 
