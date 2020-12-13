@@ -38,4 +38,4 @@ Partial results and code for these modifications is attached.
 
 # visualization
 
-<img src='docs/imgs/segmentation.png' align="right" width=325>
+<img src='docs/imgs/segmentation.png' align="right">
