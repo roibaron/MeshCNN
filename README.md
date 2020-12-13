@@ -1,98 +1,54 @@
 <img src='docs/imgs/alien.gif' align="right" width=325>
 <br><br><br>
 
-# MeshCNN in PyTorch
+# Modifiying MeshCNN
+
+## The assignment
+We were required to apply some modifications on the original <a href="https://ranahanocka.github.io/MeshCNN/">MeshCNN</a>
+ project.
+The task was to achieve better accuracy results on 2 specific data sets:
+<ul>
+<li>Human (segmentation task)</li>
+<li>Cubes (classification task)</li>
+</ul>
+For details about the project, citing and howtos, please visit the  <a href="https://github.com/ranahanocka/MeshCNN/
+>main repo</a>.
+
+### NOTE
+This isn't a good practice for improving a DL model. All we achieved is tighter fitting to specific datasets, which probably results in OVERFIT and worse results on general data.
+It's not enough that we separate data sets to train and test sets, because we can't measure what matters – how the algorithm will perform on new data.
+A better practice would be splitting the data into 3 sets: train, validation and test, or to use cross validation by splitting the data into folds.
+The validation set assigned to setting and optimizing the Hyperparameters while the test set to estimate the final model success, and hence the model can't reach this data before it's done.
+
+# What we tried?
+Activation function we tried using tanh, sigmoid and leaky relu instead of the relu layers.
+Modifying learning rate
+Tweaking the batch size
+Changing 
+Changing the loss reduction type from mean to std and median.
+Changing init type
+Modifying resblock
+Adding kernel features
+Norm
+Sum
+Std
+Multiplication and division of the edges (which resulted in NaN)
+Adding dropout - during training we zero some of the activations (and don’t update those weights). It is a kind of regularization- good for generalization. 
+Adding layers to the classification network
+We tried adding a fully connected layer between any 2 convolution layers.
+Changing the parameter for edge collapse
+Randomly collapsing edges
+
+We also used many combinations of the above
+Partial results and code for these modifications is attached.
 
 
-### SIGGRAPH 2019 [[Paper]](https://bit.ly/meshcnn) [[Project Page]](https://ranahanocka.github.io/MeshCNN/)<br>
+## The final model
+ The final model included just modest tweaks:
+Replacing the activation function.
+Adding a sum feature to the kernal.
 
-MeshCNN is a general-purpose deep neural network for 3D triangular meshes, which can be used for tasks such as 3D shape classification or segmentation. This framework includes convolution, pooling and unpooling layers which are applied directly on the mesh edges.
-
-<img src="docs/imgs/meshcnn_overview.png" align="center" width="750px"> <br>
-
-The code was written by [Rana Hanocka](https://www.cs.tau.ac.il/~hanocka/) and [Amir Hertz](http://pxcm.org/) with support from [Noa Fish](http://www.cs.tau.ac.il/~noafish/).
-
-# Getting Started
-
-### Installation
-- Clone this repo:
-```bash
-git clone https://github.com/ranahanocka/MeshCNN.git
-cd MeshCNN
-```
-- Install dependencies: [PyTorch](https://pytorch.org/) version 1.2. <i> Optional </i>: [tensorboardX](https://github.com/lanpa/tensorboardX) for training plots.
-  - Via new conda environment `conda env create -f environment.yml` (creates an environment called meshcnn)
-  
-### 3D Shape Classification on SHREC
-Download the dataset
-```bash
-bash ./scripts/shrec/get_data.sh
-```
-
-Run training (if using conda env first activate env e.g. ```source activate meshcnn```)
-```bash
-bash ./scripts/shrec/train.sh
-```
-
-To view the training loss plots, in another terminal run ```tensorboard --logdir runs``` and click [http://localhost:6006](http://localhost:6006).
-
-Run test and export the intermediate pooled meshes:
-```bash
-bash ./scripts/shrec/test.sh
-```
-
-Visualize the network-learned edge collapses:
-```bash
-bash ./scripts/shrec/view.sh
-```
-
-An example of collapses for a mesh:
-
-<img src="/docs/imgs/T252.png" width="450px"/> 
-
-Note, you can also get pre-trained weights using bash ```./scripts/shrec/get_pretrained.sh```. 
-
-In order to use the pre-trained weights, run ```train.sh``` which will compute and save the mean / standard deviation of the training data. 
+# The results
 
 
-### 3D Shape Segmentation on Humans
-The same as above, to download the dataset / run train / get pretrained / run test / view
-```bash
-bash ./scripts/human_seg/get_data.sh
-bash ./scripts/human_seg/train.sh
-bash ./scripts/human_seg/get_pretrained.sh
-bash ./scripts/human_seg/test.sh
-bash ./scripts/human_seg/view.sh
-```
-
-Some segmentation result examples:
-
-<img src="/docs/imgs/shrec__10_0.png" height="150px"/> <img src="/docs/imgs/shrec__14_0.png" height="150px"/> <img src="/docs/imgs/shrec__2_0.png" height="150px"/> 
-
-### Additional Datasets
-The same scripts also exist for COSEG segmentation in ```scripts/coseg_seg``` and cubes classification in ```scripts/cubes```. 
-
-# More Info
-Check out the [MeshCNN wiki](https://github.com/ranahanocka/MeshCNN/wiki) for more details. Specifically, see info on [segmentation](https://github.com/ranahanocka/MeshCNN/wiki/Segmentation) and [data processing](https://github.com/ranahanocka/MeshCNN/wiki/Data-Processing).
-
-# Citation
-If you find this code useful, please consider citing our paper
-```
-@article{hanocka2019meshcnn,
-  title={MeshCNN: A Network with an Edge},
-  author={Hanocka, Rana and Hertz, Amir and Fish, Noa and Giryes, Raja and Fleishman, Shachar and Cohen-Or, Daniel},
-  journal={ACM Transactions on Graphics (TOG)},
-  volume={38},
-  number={4},
-  pages = {90:1--90:12},
-  year={2019},
-  publisher={ACM}
-}
-```
-
-
-# Questions / Issues
-If you have questions or issues running this code, please open an issue so we can know to fix it.
-  
-# Acknowledgments
-This code design was adopted from [pytorch-CycleGAN-and-pix2pix](https://github.com/junyanz/pytorch-CycleGAN-and-pix2pix).
+<table class="c33"><tbody><tr class="c8"><td class="c11" colspan="2" rowspan="1"><p class="c1"><span class="c3">segmentation</span></p></td><td class="c13" colspan="2" rowspan="1"><p class="c1"><span class="c16 c37">classification</span></p></td></tr><tr class="c28"><td class="c14" colspan="1" rowspan="1"><p class="c1"><span class="c16">1</span><span class="c16 c27">st</span><span class="c3">&nbsp; run</span></p></td><td class="c9" colspan="1" rowspan="1"><p class="c1"><span class="c16">2</span><span class="c16 c27">nd</span><span class="c3">&nbsp;run</span></p></td><td class="c19" colspan="1" rowspan="1"><p class="c1"><span class="c16">1</span><span class="c16 c27">st</span><span class="c3">&nbsp; run</span></p></td><td class="c19" colspan="1" rowspan="1"><p class="c1"><span class="c16">2</span><span class="c16 c27">nd</span><span class="c3">&nbsp;run</span></p></td></tr><tr class="c8"><td class="c14" colspan="1" rowspan="1"><p class="c1"><span class="c0">&nbsp;95.094%</span></p></td><td class="c9" colspan="1" rowspan="1"><p class="c1"><span class="c0">&nbsp;95.669%</span></p></td><td class="c19" colspan="1" rowspan="1"><p class="c1"><span class="c0">&nbsp;97.56%</span></p></td><td class="c19" colspan="1" rowspan="1"><p class="c1"><span class="c0">&nbsp;</span></p></td></tr><tr class="c8"><td class="c14" colspan="1" rowspan="1"><p class="c1"><span class="c0">&nbsp;95.085%</span></p></td><td class="c9" colspan="1" rowspan="1"><p class="c1"><span class="c0">&nbsp;95.203%</span></p></td><td class="c19" colspan="1" rowspan="1"><p class="c1"><span class="c0">&nbsp;97.37%</span></p></td><td class="c19" colspan="1" rowspan="1"><p class="c1"><span class="c0">&nbsp;</span></p></td></tr><tr class="c8"><td class="c14" colspan="1" rowspan="1"><p class="c1"><span class="c0">&nbsp;95.106%</span></p></td><td class="c9" colspan="1" rowspan="1"><p class="c1"><span class="c0">&nbsp;94.851%</span></p></td><td class="c19" colspan="1" rowspan="1"><p class="c1"><span class="c0">&nbsp;96.47%</span></p></td><td class="c19" colspan="1" rowspan="1"><p class="c1"><span class="c0">&nbsp;</span></p></td></tr><tr class="c8"><td class="c11" colspan="2" rowspan="1"><p class="c1"><span class="c30">Average</span><span class="c0">&nbsp;95.168</span></p></td><td class="c13" colspan="2" rowspan="1"><p class="c1"><span class="c25">average</span></p></td></tr><tr class="c8"><td class="c11" colspan="2" rowspan="1"><p class="c1 c23"><span class="c25"></span></p></td><td class="c13" colspan="2" rowspan="1"><p class="c1 c23"><span class="c25"></span></p></td></tr></tbody></table>
