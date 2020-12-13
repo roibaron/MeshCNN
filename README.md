@@ -11,8 +11,7 @@ The task was to achieve better accuracy results on 2 specific data sets:
 <li>Human (segmentation task)</li>
 <li>Cubes (classification task)</li>
 </ul>
-For details about the project, citing and howtos, please visit the  <a href="https://github.com/ranahanocka/MeshCNN/
->main repo</a>.
+For details about the project, citing and howtos, please visit the  <a href="https://github.com/ranahanocka/MeshCNN/">main repo</a>.
 
 ### NOTE
 This isn't a good practice for improving a DL model. All we achieved is tighter fitting to specific datasets, which probably results in OVERFIT and worse results on general data.
